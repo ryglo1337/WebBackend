@@ -48,9 +48,9 @@ foreach($superpowers as $checking){
 	}
 }
 
-$user = 'u52939';
-$pass = '8051536';
-$db = new PDO('mysql:host=localhost;dbname=u52939', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+$user = 'u55100';
+$pass = '6571891';
+$db = new PDO('mysql:host=localhost;dbname=u55100', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
 try {
   $stmt = $db->prepare("INSERT INTO form SET name=:name, email=:email, year=:byear, pol=:pol, limbs=:limbs, bio=:bio");
   $stmt->bindParam(':name', $name);
