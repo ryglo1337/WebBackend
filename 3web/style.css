@@ -1,0 +1,34 @@
+body{
+  background-image: url("zakat.jpg");
+  background-size: no-repeat;
+  display: flex;
+  justify-content:center;
+  margin-top:5%;
+  margin-bottom:5%;
+}
+.main{
+  padding: 40px;
+  width: 250px;
+  background: linear-gradient(135deg,#c0baf8,#ff3b3b,#42e700);
+    border: 2px solid #26527C;
+    animation: animate 2.5s linear infinite;
+}
+
+h1{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+p{
+  padding: 5%;
+  border: 1px solid #26527C;
+  border-radius: 3px;
+}
+@keyframes animate{
+  100%{filter: hue-rotate(360deg);}
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
